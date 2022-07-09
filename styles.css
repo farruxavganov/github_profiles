@@ -95,3 +95,11 @@ img {
     margin: 0 5px;
     font-size: .9rem;
 }
+
+.profile__data i {
+    font-size: 1.1rem;
+}
+
+.profile__data:nth-child(2) i {
+    color: red;
+}
