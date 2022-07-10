@@ -1,12 +1,13 @@
 const form = document.querySelector('.farm');
 const profile = document.querySelector(".profile");
-const value = document.querySelector(".input").value;
+
 
 const API = "https://api.github.com/users/";
 
 form.addEventListener("submit",function (e) {
+	const value = document.querySelector(".input").value;
 	e.preventDefault();
-	getUser(API);
+	getUser(API,value);
 })
 
 getUser(API);
