@@ -33,7 +33,8 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     border-radius: 20px;
     padding: 20px;
     background: rgb(2,0,36);
